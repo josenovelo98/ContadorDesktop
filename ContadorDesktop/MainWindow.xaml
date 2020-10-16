@@ -7,16 +7,18 @@
         mc:Ignorable="d"
         Title="Contador" Height="220" Width="200">
     <StackPanel>
-        
+
         <Border Margin="16" BorderBrush="LightGreen" BorderThickness="2">
-            <Label Content="conteo" Margin="4" FontSize="18" HorizontalContentAlignment="Center"/>
             <StackPanel>
-                
+                <Label Content="Conteo:" Margin="4" FontSize="18" HorizontalContentAlignment="Center"/>
+                <Label Content="0" x:Name="conteolabel" Margin="4" FontSize="18" HorizontalContentAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" Margin="8" HorizontalAlignment="Center">
+                    <Button Content="contar" x:Name="contarbutton" Margin="4" Padding="0.2" MinWidth="60" Click="contarbutton_Click"/>
+                    <Button Content="reiniciar" x:Name="reiniciarbutton" Margin="4" Padding="0.2" MinWidth="60" Click="reiniciarbutton_Click"/>
+                </StackPanel>
             </StackPanel>
         </Border>
-        <Button>
-            
-        </Button>
+        <Button Content="salir" x:Name="salirbutton" Margin="16" HorizontalAlignment="Right" MinWidth="60" Click="salirbutton_Click"/>
     </StackPanel>
 
 </Window>
