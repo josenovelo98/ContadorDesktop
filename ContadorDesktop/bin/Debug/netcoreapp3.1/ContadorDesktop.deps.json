@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ContadorDesktop/1.0.0": {
+        "runtime": {
+          "ContadorDesktop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContadorDesktop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
